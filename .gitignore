@@ -331,4 +331,4 @@ ASALocalRun/
 
 # CMake Build and Install Artifacts
 [Bb]uild/
-[Ii]nstall/
+[Ii]nstall/build/

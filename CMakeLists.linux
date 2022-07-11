@@ -1,0 +1,10 @@
+# Lowest version with C# support is 3.8.
+cmake_minimum_required( VERSION 3.0.8)
+
+list( APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" )
+
+find_package( CSharp REQUIRED )
+
+include( ${CSHARP_USE_FILE} )
+
+add_subdirectory(src/CommonLib)

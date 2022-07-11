@@ -1,0 +1,6 @@
+# Add shared library project.
+set(PROJECT_NAME "CommonLib")
+
+csharp_add_library(${PROJECT_NAME}
+    "${CMAKE_BINARY_DIR}/Config/${PROJECT_NAME}/AssemblyInfo.cs"
+    ${CMAKE_CURRENT_SOURCE_DIR}/Common.cs)
